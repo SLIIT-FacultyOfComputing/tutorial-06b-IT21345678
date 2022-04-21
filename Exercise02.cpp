@@ -3,7 +3,7 @@ using namespace std;
 #include "Box.h"
 
 int main() {
-  
+  Box box1;
    // 1. Create a Box type object called box1
   
   
@@ -17,7 +17,7 @@ int main() {
    cin >> width;
    // ===========================================
   
-   // 2. Use setters assign height, length, width throw
+   box1.setvalues(length,width,height);
   
    // === DO NOT CHANGE THE OUTPUT =============
    cout << "Box Height " << box1.getHeight() << endl;
